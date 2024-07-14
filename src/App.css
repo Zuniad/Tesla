@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.md1{
+  border: 1px solid blue;
+  background-color: rgb(29, 29, 69);
+  border-radius: 20px;
+  width: 500px;
+  height: 250px;
+
+}
+.md2{
+  font-size: 35px;
+  color: #ffff;
+}
+.md5{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  color: #ffff;
+  border: 1px solid rgb(255, 255, 255);
+  width: 75px;
+  border-radius: 30px;
+align-items: center;
+margin: auto;
+margin-left: 185px;
+  position: relative;
+  top: 30px;
+
+}
+.md3{
+  display: flex;
+  justify-content: center;
+
+
+  background-color: #ffff;
+  width: 350px;
+  height: 50px;
+  margin: auto;
+  border: 30px;
+  margin-top: 20px;
+}
+.md43{
+  margin: auto;
+  width: 55px;
+  height:40px;
+  font-size: 30px;
+}
+.md41{
+  border-right: 1px solid black;
+}
+
+.md42{
+  border-left: 1px solid black;
+}
